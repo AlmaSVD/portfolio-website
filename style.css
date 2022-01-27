@@ -1,0 +1,64 @@
+#hero {
+  background-image: url(./images/josh-hild-E4pgmmZLBGw-unsplash.jpg); 
+  background-size: cover;
+  background-position: center bottom; 
+  height: 100vh;
+  min-height: 750px;
+  
+  
+  
+} 
+#hero h1 {
+  font-size: 65px;
+  padding-top: 30vh; 
+  text-shadow: rgba(8, 8, 8, 0.5) 0px 3px 3px;
+  /*padding-left: 120px;*/
+}
+
+#hero h3 {
+  padding-top: 20px;
+  text-shadow: 2px 2px 3px rgb(0 0 0 / 100%);
+  /*padding-left: 180px;*/
+}
+
+@media (max-width: 720px) {
+  #hero h1 {
+    font-size: 40px;
+  }  
+}
+
+#hero btn btn-secondary {
+  padding-top: 115px;
+  padding-left: 20px;
+  color:rgb(109, 106, 136)
+}
+
+
+
+#portfolio {
+  padding-top: 50px;
+}
+
+
+
+.card-text {
+  font-size: 12px; 
+}
+
+.featured-artist {
+  align: middle; 
+}
+
+img {
+  border-radius: 100%;
+  width: 160px;
+}
+
+body {
+  background-color: 
+  
+  }
+
+
+
+
