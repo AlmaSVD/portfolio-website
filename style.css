@@ -1,3 +1,7 @@
+.navbar {
+  z-index: 1;
+}
+
 #hero {
   background-image: url(./images/josh-hild-E4pgmmZLBGw-unsplash.jpg); 
   background-size: cover;
@@ -37,8 +41,12 @@
 
 #portfolio {
   padding-top: 50px;
+  
 }
 
+.card {
+  display:flex;
+}
 
 
 .card-text {
@@ -49,15 +57,16 @@
   align: middle; 
 }
 
-img {
-  border-radius: 100%;
-  width: 160px;
-}
+
 
 body {
   background-color: 
-  
   }
+
+
+
+
+
 
 
 
