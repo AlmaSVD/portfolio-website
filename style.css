@@ -64,7 +64,7 @@ body {
 }
 
 .featured-artist {
-  align: middle; 
+  align-items: middle; 
 }
 
 /*skills*/
