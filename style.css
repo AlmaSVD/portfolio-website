@@ -1,18 +1,15 @@
 
 /*general*/
 
-html {
-  <br />  scroll-behavior: smooth; 
+html { 
+  scroll-behavior: smooth; 
 }
 
-body {
-  background-color: 
-  }
 
-  span {
-    font-weight: bold;
-    font-size: 14px;
-  }
+span {
+  font-weight: bold;
+  font-size: 14px;
+}
 
 /*hero*/
 
@@ -63,9 +60,6 @@ body {
   font-size: 12px; 
 }
 
-.featured-artist {
-  align-items: middle; 
-}
 
 /*skills*/
 
@@ -102,29 +96,33 @@ body {
   }  
 }
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px) {
 #skills {
     padding-top: 120px;
     padding-bottom: 120px;
-}
+  }   
 .skill {
   width: 30%;
+  }
 }
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px){
 #skills .content-wrapper {
     max-width: 900px;
+  }
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px) {
 .skill-wrapper {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     flex-flow: row wrap;
     text-transform: uppercase;
-}
+  }
 .skill-wrapper p {
   padding: 15px 0;
+  }
 }
+
 
 
 
