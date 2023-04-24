@@ -22,15 +22,13 @@ span {
   background-size: cover;
   background-position: center bottom; 
   height: 90vh;
-  min-height: 750px;
-  
-  
+  min-height: 750px; 
 } 
+
 #hero h1 {
   font-size: 65px;
   padding-top: 30vh; 
   text-shadow: rgba(8, 8, 8, 0.5) 0px 3px 3px;
-  
 }
 
 #hero h3 {
@@ -48,12 +46,10 @@ span {
 
 #portfolio {
   padding-top: 50px; 
-  
 }
 
 .card {
-  display:flex;
-  
+  display:flex; 
 }
 
 .card-text {
@@ -72,6 +68,10 @@ span {
   flex-flow: row wrap;
 }
 
+.skill  {
+  width: ;
+}
+
 .content-wrapper {
   width: 85%;
 }
@@ -85,43 +85,54 @@ span {
 }
 
 .skill-wrapper p {
-  background-color: #b3d4fc; 
-  padding: 15px 0;
-  margin: 20px 0;
+    background-color: #b3d4fc; 
+    padding: 15px 0;
+    margin: 20px 0;
 }
 
+/*media*/
 @media (max-width: 720px) {
   #hero h1 {
     font-size: 40px;
-  }  
-}
+  } 
+} 
 
-@media only screen and (min-width: 1200px) {
-#skills {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }   
-.skill {
-  width: 30%;
-  }
-}
-@media only screen and (min-width: 1200px){
-#skills .content-wrapper {
-    max-width: 900px;
-  }
-}
 @media only screen and (min-width: 768px) {
-.skill-wrapper {
-    display: flex;
+  .skill-wrapper {
+    display: flex; 
     justify-content: space-evenly;
     width: 100%;
     flex-flow: row wrap;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    }
+  .skill-wrapper p {
+    padding: 15px 0;
+    }
+  .skill {
+      width: 45%;
+    }
+  .skill p {
+    margin-left: 2px;
+    margin-right: 2px;
+    }
   }
-.skill-wrapper p {
-  padding: 15px 0;
+
+@media only screen and (min-width: 1200px) 
+#skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  } 
+.skill {
+    width: 30%; 
   }
-}
+
+@media only screen and (min-width: 1200px)
+#skills .content-wrapper {
+    max-width: 900px;
+  }
+
+
+
 
 
 
