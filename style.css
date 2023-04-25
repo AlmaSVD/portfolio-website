@@ -68,8 +68,8 @@ span {
   flex-flow: row wrap;
 }
 
-.skill  {
-  width: ;
+.skill {
+  width: 100%;
 }
 
 .content-wrapper {
@@ -90,7 +90,7 @@ span {
     margin: 20px 0;
 }
 
-/*media*/
+/*@media*/
 @media (max-width: 720px) {
   #hero h1 {
     font-size: 40px;
@@ -111,13 +111,9 @@ span {
   .skill {
       width: 45%;
     }
-  .skill p {
-    margin-left: 2px;
-    margin-right: 2px;
-    }
   }
 
-@media only screen and (min-width: 1200px) 
+@media only screen and (min-width: 1200px) {
 #skills {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -125,11 +121,13 @@ span {
 .skill {
     width: 30%; 
   }
+}
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1200px) {
 #skills .content-wrapper {
     max-width: 900px;
   }
+}
 
 
 
